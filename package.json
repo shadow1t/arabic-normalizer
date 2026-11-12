@@ -1,0 +1,55 @@
+{
+  "name": "arabic-normalizer",
+  "version": "1.0.0",
+  "description": "تطبيع النصوص العربية: إزالة التشكيل، توحيد الهمزات والتاء المربوطة والألف المقصورة، تحويل الأرقام، فكّ الحروف المركّبة — Zero-dependency Arabic text normalization (tashkeel, hamza, taa marbuta, alef maqsura, digits, ligatures) for Node.js and browsers.",
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "test": "node --test tests/*.test.mjs"
+  },
+  "keywords": [
+    "arabic",
+    "arabic-text",
+    "normalize",
+    "normalization",
+    "tashkeel",
+    "tashkeel-removal",
+    "diacritics",
+    "harakat",
+    "hamza",
+    "ta-marbuta",
+    "alef-maqsura",
+    "arabic-digits",
+    "ligatures",
+    "arabic-nlp",
+    "nlp",
+    "search",
+    "normalise"
+  ],
+  "engines": {
+    "node": ">=14.13"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shadow1t/arabic-normalizer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shadow1t/arabic-normalizer/issues"
+  },
+  "homepage": "https://github.com/shadow1t/arabic-normalizer#readme",
+  "author": "Rasheed (shadow1t)",
+  "license": "MIT",
+  "sideEffects": false
+}
